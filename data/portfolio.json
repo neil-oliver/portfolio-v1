@@ -1,0 +1,259 @@
+[
+    {
+        "title" : "Is Twitter Feeding Bitcoin",
+        "tagline" : "An analysis of Twitter content, user behavior, and correlation to Bitcoin market value.",
+        "description" : ["This project dissects the user behavior and content of Twitter to investigate which elements have the strongest correlation to changes in Bitcoin market value. Evaluating a body of 100,000 tweets over a period of one week, volume data of both tweet generation and user interactions is combined with sentiment analysis to create a series of interactive exploratory visualizations."],
+        "images" : {
+            "main" : "edits/influence-crop.png",
+            "alt" : "influence-1.png",
+            "gifs" : [],
+            "details" : [],
+            "development" : []
+        },
+        "project-link" : "http://neiloliver.co/influence/",
+        "github-link" : "https://github.com/neil-oliver/thesis",
+        "datasource" : [{
+            "type" : "API",
+            "description" : "Twitter API",
+            "link" : "https://developer.twitter.com/"
+        }],
+        "tools" : ["Node","JavaScript","D3", "Vue", "MongoDB", "NUXT"],
+        "colors" : {
+            "background" : ["#ffc864", "#5cc9f5"]
+        }
+    },
+    {
+        "title" : "Spotify is More Than Just an App...",
+        "tagline" : "Spotify is More Than Just an App...",
+        "description" : [""],
+        "images" : {
+            "main" : "edits/spotify-crop.png",
+            "alt" : "",
+            "gifs" : [],
+            "details" : [],
+            "development" : []
+        },
+        "project-link" : "http://neiloliver.co/spotify.html",
+        "github-link" : "http://neiloliver.co/spotify.html",
+        "datasource" : [{
+            "type" : "Download",
+            "description" : "Spotify Personal Data Download",
+            "link" : "https://support.spotify.com/us/article/data-rights-and-privacy-settings/"
+        }],
+        "tools" : ["JavaScript","D3", "ScrollMagic", "Greensock Animation Platform"],
+        "colors" : {
+            "background" : ["#000", "#4AF2A1"]
+        }
+    },
+    {
+        "title" : "MET Stories",
+        "tagline" : "A story told through time, space and context using artworks from The MET collection.",
+        "description" : ["Building on 'A Story of The MET Collection', MET Stories goes one step further to allow a story to be told about a specific topic, and visualize how the story is jumping through time. Once the user enters a keyword, a timeline is produced showing all of the artworks related to that word and a story of how they link togther. The artworks are displayed as a group but can be singled out to focus on the part is plays in the story, or switch to fullscreen mode to view them in all of their glory. Bored on the train and need something quick to read? MET Stories is the perfect quick read with its responsive design including a mobile friendly version."],
+        "images" : {
+            "main" : "edits/timeline-crop.png",
+            "alt" : "timeline-2.png",
+            "gifs" : ["timeline-video-1.gif","timeline-video-2.gif","timeline-mobile-video-1.gif"],
+            "details" : ["timeline-fullscreen.png","timeline-hover.png","timeline-mobile-1.png","timeline-mobile-2.png"],
+            "development" : []
+        },
+        "project-link" : "https://neil-oliver.github.io/Major-Studio-1/New-Context/",
+        "github-link" : "https://github.com/neil-oliver/Major-Studio-1/tree/master/New-Context/",
+        "datasource" : [{
+            "type" : "API",
+            "description" : "The MET API",
+            "link" : "https://metmuseum.github.io"
+        }],
+        "tools" : ["Node","JavaScript","D3"],
+        "colors" : {
+            "background" : ["#3a7bd5", "#7fcdbb"]
+        }
+    },
+    {
+        "title" : "Do you have to be dead, to get in The MET?",
+        "tagline" : "Van Gogh sold only a single painting during his lifetime, yet Starry Night is now valued at over $100 million.",
+        "description" : ["This visualization investigates whether art only becomes 'art' only after an artist has died, by looking at The MET's aquisitions in realtion to an artists lifespan. The graph is split in the middle with artworks from deceased artists on the left and artsits still alive (at the time of aquisition) on the right. Only artworks from artists who were still alive at the opening of The MET in 1870 are included. Each year is broken down by departments. Users can choose to view the amounts by total number of artwork or percentage of artworks purchased that year."],
+        "images" : {
+            "main" : "edits/quantitative-crop.png",
+            "alt" : "quantitative-2.png",
+            "gifs" : ["quantitative-video-1.gif"],
+            "development" : []
+        },
+        "project-link" : "http://neiloliver.co/design/MET/",
+        "github-link" : "https://github.com/neil-oliver/Major-Studio-1/tree/master/Quantitative-Design",
+        "datasource" : [{
+            "type" : "API",
+            "description" : "The MET API",
+            "link" : "https://metmuseum.github.io"
+        }],
+        "tools" : ["JavaScript","P5"],
+        "colors" : {
+            "background" : ["#f2709c","#80bb5a"]
+        }
+    },
+    {
+        "title" : "Alcoholics Anonymous Meeting Finder",
+        "tagline" : "An anonymous and quick way to find your nearest AA meeting.",
+        "description" : [],
+        "images" : {
+            "main" : "edits/aa-crop.png",
+            "alt" : "",
+            "gifs" : [],
+            "development" : []
+        },
+        "project-link" : "https://neil-oliver.github.io/Major-Studio-1/Qualitative-Design/",
+        "github-link" : "https://github.com/neil-oliver/Major-Studio-1/tree/master/Quantitative-Design",
+        "datasource" : [{
+            "type" : "Web Scraping",
+            "description" : "Previous Alcoholics Anonymous Website",
+            "link" : "https://parsons.nyc/aa/m01.html"
+        }],
+        "tools" : ["AWS-RDS","Node","Express","jQuery","Leaflet","Bootstrap"],
+        "colors" : {
+            "background" : ["#7fcdbb","#56B4D3"]
+        }
+
+    },
+    {
+        "title" : "Movers and Shakers",
+        "tagline" : "An interactive visualization that uses the live USGS data feed to display the past 30 days of seismic activity.",
+        "description" : [],
+        "images" : {
+            "main" : "edits/mapping-space-crop.png",
+            "alt" : "mapping-space-2.png",
+            "gifs" : [],
+            "development" : []
+        },
+        "project-link" : "https://neil-oliver.github.io/dvia-2019/3.mapping-space/project",
+        "github-link" : "https://github.com/neil-oliver/dvia-2019/tree/master/3.mapping-space/project",
+        "datasource" : [{
+            "type" : "Direct Link",
+            "description" : "USGS Earthquake Live Data",
+            "link" : "https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php"
+        }],
+        "tools" : ["Leaflet","P5"],
+        "colors" : {
+            "background" : ["#450462","#0c84ba"]
+        }
+    },
+    {
+        "title" : "A Story of The MET Collection",
+        "tagline" : "Six degrees of Kevin Bacon, but for The MET Collection.",
+        "description" : ["We all have things in common, we might be the same age, born in the same place, go to the same college; the possiblities are endless. The same theory can be applied to the artworks in The MET collection. Behind the scenes, this visualization linked up every artwork in The MET using dates, locations, people and even the content of the artworks (for example the artwork contains a dog). Starting with a random artwork, these links are explored and an endless story is created navigating through 36 billion possible links. You will never read the exact same story twice."],
+        "images" : {
+            "main" : "edits/story-crop.png",
+            "alt" : "story-2.png",
+            "gifs" : ["story-video-1.gif","story-video-2.gif"],
+            "details" : ["story-3.png","story-3.png"],
+            "development" : []
+        },
+        "project-link" : "https://neil-oliver.github.io/Major-Studio-1/Qualitative-Design/",
+        "github-link" : "https://github.com/neil-oliver/Major-Studio-1/tree/master/Quanlitative-Design",
+        "datasource" : [{
+            "type" : "API",
+            "description" : "The MET API",
+            "link" : "https://metmuseum.github.io"
+        }],
+        "tools" : ["JavaScript","P5"],
+        "colors" : {
+            "background" : ["#ec032a","#c3af72"]
+        }
+    },
+    {
+        "title" : "Is It Cold In Here?",
+        "tagline" : "A comparison of personally collected temperature data & the outdoors temperature to see if my apartment heating is keeping up to code.",
+        "description" : [],
+        "images" : {
+            "main" : "edits/temperature-crop.png",
+            "alt" : "temperature-screenshot-2.png",
+            "gifs" : [],
+            "development" : []
+        },
+        "project-link" : "https://neil-oliver.github.io/Major-Studio-1/Qualitative-Design/",
+        "github-link" : "https://github.com/neil-oliver/Major-Studio-1/tree/master/Quantitative-Design",
+        "datasource" : [{
+            "type" : "API",
+            "description" : "MetroStat Weather API",
+            "link" : "https://api.meteostat.net"
+        },
+        {
+            "type" : "Sensor",
+            "description" : "Particle Photon Sensor",
+            "link" : ""
+        }],
+        "tools" : ["AWS-DynamoDB","Node","Express","jQuery","D3","Bootstrap"],
+        "colors" : {
+            "background" : ["#a4de27","#AA076B"]
+        }
+    },
+    {
+        "title" : "Graduate School Process Blog",
+        "tagline" : "Tracking the winter semester of the MSDV course at Parsons School of Design.",
+        "description" : [],
+        "images" : {
+            "main" : "edits/blog-crop.png",
+            "alt" : "",
+            "gifs" : [],
+            "development" : []
+        },
+        "project-link" : "https://neil-oliver.github.io/Major-Studio-1/Qualitative-Design/",
+        "github-link" : "https://github.com/neil-oliver/Major-Studio-1/tree/master/Quantitative-Design",
+        "datasource" : [{
+            "type" : "Personal",
+            "description" : "Personal blog entries",
+            "link" : ""
+        }],
+        "tools" : ["AWS-RDS","Node","Express","jQuery","Javascript","Bootstrap"],
+        "colors" : {
+            "background" : ["#FC354C","#5a81e8"]
+        }
+    },
+    {
+        "title" : "Correlates of War",
+        "tagline" : "This visualization focusing on 5 countries, comparing the CINP value against miilitary measures includes spend, size, nuclear testing and international conflicts.",
+        "description" : [],
+        "images" : {
+            "main" : "edits/correlates-crop.png",
+            "alt" : "",
+            "gifs" : [],
+            "development" : []
+        },
+        "project-link" : "https://neil-oliver.github.io/dvia-2019/2.mapping-quantities/project/concept-3.html",
+        "github-link" : "https://github.com/neil-oliver/dvia-2019/tree/master/2.mapping-quantities/project",
+        "datasource" : [{
+            "type" : "Website",
+            "description" : "Correlates of War Project",
+            "link" : "http://www.correlatesofwar.org/"
+        },
+        {
+            "type" : "CSV",
+            "description" : "Nuclear Power Data",
+            "link" : "https://github.com/neil-oliver/dvia-2019/tree/master/2.mapping-quantities/project/data"
+        }],
+        "tools" : ["Leaflet","P5"],
+        "colors" : {
+            "background" : ["#96017d","#58bfc0"]
+        }
+    },
+    {
+        "title" : "Through Space and Time",
+        "tagline" : "An exploration of retinal variables through the topic of date and time.",
+        "description" : [],
+        "images" : {
+            "main" : "edits/through-space-and-time-crop.png",
+            "alt" : "",
+            "gifs" : [],
+            "development" : []
+        },
+        "project-link" : "https://neil-oliver.github.io/dvia-2019/1.mapping-time/final_through_space_and_time",
+        "github-link" : "https://github.com/neil-oliver/dvia-2019/tree/master/1.mapping-time/final_through_space_and_time",
+        "datasource" : [{
+            "type" : "Clock",
+            "description" : "Internal Clock",
+            "link" : ""
+        }],
+        "tools" : ["P5"],
+        "colors" : {
+            "background" : ["#c21500","#ffc500"]
+        }
+    }
+]

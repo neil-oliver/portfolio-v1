@@ -1,0 +1,425 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+html {
+    font-size: 100%;
+}
+
+@font-face {
+    font-family: circular;
+    src: url(/fonts/CircularSpotifyText-Medium.otf);
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: circular;
+    src: url(/fonts/CircularSpotifyHead-Black.otf);
+    font-weight: bolder;
+}
+@font-face {
+    font-family: circular;
+    src: url(/fonts/CircularSpotifyText-Book.otf);
+    font-weight: 100;
+}
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+.container{
+    width:100vw;
+    overflow: scroll;
+    height: 100vh;
+    display: flexbox;
+    /* scroll-snap-type: y mandatory; */
+}
+
+
+body {
+    border: 0;
+    padding: 0;
+    background-color: #303030;
+    font-family: circular;
+    font-weight: medium;
+    color: white;
+}
+
+
+.section{
+    min-height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    position: relative;
+    /* scroll-snap-align: start; */
+
+}
+
+#twoinside{
+    height:80vh;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#life{
+    position: absolute;
+    left:100px;
+    top :0;
+    font-size: 11em;
+    color: transparent !important;
+    -webkit-text-stroke: 1px #fbe62d;
+    font-weight: bolder;
+    letter-spacing: -0.05em;
+    border-style: solid;
+}
+
+#and{
+    font-size: 8em;
+    font-weight: bolder;
+
+}
+#soul{
+    position: absolute;
+    right:100px;
+    bottom :0;
+    font-size: 11em;
+    color: transparent !important;
+    -webkit-text-stroke: 1px #fbe62d;
+    font-weight: bolder;
+    letter-spacing: -0.05em;
+}
+
+#twostart{
+    position: absolute;
+    left:50px;
+    top:150px;
+}
+#twoend{
+    position: absolute;
+    right:50px;
+    bottom :150px;
+}
+#three{
+    padding-left:20vw;
+    padding-right:20vw;
+    text-align: center;
+}
+
+
+#five{
+    font-weight: bolder;
+    width:100vw;
+}
+
+.waves {
+    left:0;
+    top:5vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.date{
+    display: block;
+    font-size: 1.5em;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 8em;
+}
+
+.nowplaying{
+    position: absolute;
+    display: block;
+    font-size: 1em;
+    bottom: 70px;
+}
+
+
+.line {
+    fill: none;
+    stroke-width: 1.5px;
+}
+
+.blinking-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     opacity: 1;    }
+    49%{    opacity: 1; }
+    50%{    opacity: 0; }
+    99%{    opacity: 0;  }
+    100%{   opacity: 1;    }
+}
+
+#time-spacer {
+    height: 30px;
+    width: 30px;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;								
+    padding: 10px;				
+    font: 20px;		
+    background: #303030;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;
+    opacity: 0;
+    color:#fff;	
+    font-weight: 100;
+}
+
+#tooltip-header{
+    padding: 10px;
+}
+
+#spotify-logo{
+    margin-right:15px;
+    width:40px;
+    height:40px;
+}
+#tooltip-header-spotify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 2em;
+}
+#tooltip-header-sunheading{
+    font-size: 2em;
+}
+#tooltip-track-name{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#tooltip-body{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.tooltip-section:nth-child(even) {    
+    width:33%;
+}
+.tooltip-section:nth-child(odd) { 
+    width:66%;
+}
+
+.tooltip-section{
+    padding: 10px;
+}
+#tooltip-artwork{
+    height:200px;
+    width:200px;
+}
+
+#drop{
+    display: block;
+}
+
+.rectangle:hover {
+	fill: #98f0e2;
+}
+
+
+#eight img, #eight-2 #rhapsody-img {
+    border:1vw solid #fff;
+    width:30vw;
+    height:30vw;
+    margin: 30px;
+    margin-right: 10vw;
+}
+
+#friends-img {
+    border:1vw solid #fff;
+    width:30vw;
+    height:30vw;
+    margin-top: 100px;
+}
+
+#eight, #eight-2 {
+    min-height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3em;
+    position: relative;
+}
+
+.rhapsody-text {
+  padding-left: 10vw;
+}
+
+#guitar {
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+}
+
+#guitar img {
+    padding-top: 50px;
+    padding-left: 5vw;
+    width: 80vw;
+}
+
+#nineinside{
+    height:80vh;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left{
+    text-align: right;
+    width:50vw;
+    position: absolute;
+    left:100px;
+    top :0;
+    font-size: 7em;
+    color: transparent !important;
+    -webkit-text-stroke: 1px #98f0e2;
+    font-weight: bolder;
+    border-style: solid;
+    letter-spacing: -0.05em;
+
+}
+
+#right{
+    padding-right: 50px;
+    text-align: right;
+    width:50vw;
+    position: absolute;
+    right:100px;
+    bottom :0;
+    font-size: 7em;
+    color: transparent !important;
+    -webkit-text-stroke: 1px #98f0e2;
+    font-weight: bolder;
+    letter-spacing: -0.05em;
+
+}
+
+#letmego{
+    position: absolute;
+    right:50px;
+    bottom :150px;
+}
+
+#eleven{
+    text-align: center;
+    padding-right: 20vw;
+    padding-left: 20vw;
+
+}
+
+#twelve{
+    text-align: center;
+    padding-right: 20vw;
+    padding-left: 20vw;
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.2em;
+
+}
+
+
+/* start ma added styles */
+
+#six, #seven, #seven-2 {
+    min-height: 1500px;
+    flex-direction: row;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    position: relative;
+}
+
+#visone, .vistwo {
+    position: relative;
+}
+
+#visone svg, .vistwo-container {
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 10vh;
+    flex-basis: 50%;
+}
+.bars-title{
+    height: 1.5em;
+}
+
+.vistwo-container{
+    text-align: center;
+
+}
+
+.scrolly-text-container {
+    padding: 50px;
+    padding-top: 800px;
+    flex-basis: 48%;
+}
+
+.friends-text-container {
+    padding: 100px;
+    padding-top: 400px;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.scrolly-text {
+    margin-bottom: 500px;
+    padding: 30px;
+}
+
+#rect{
+    top:0;
+    left:0;
+    background-color: red;
+    height: 200px;
+    width:50px;
+}
+
+#ten{
+    font-weight: bolder;
+}
+
+
+@media (max-width: 1500px) {
+    body {
+        font-size: 0.7em !important;
+    }
+  }
+
+
+
+
+

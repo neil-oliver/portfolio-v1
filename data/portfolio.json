@@ -34,7 +34,7 @@
             "development" : []
         },
         "project-link" : "http://neiloliver.co/spotify.html",
-        "github-link" : "http://neiloliver.co/spotify.html",
+        "github-link" : "https://github.com/neil-oliver/portfolio-v1",
         "datasource" : [{
             "type" : "Download",
             "description" : "Spotify Personal Data Download",
